@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required Meta Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+
+    <!-- Title, description, and page author -->
+    <meta name="author" content="Robert Elliott" />
+    <meta
+      name="description"
+      content="Landing page for Trajectory Publishing LLC"
+    />
+    <title>Trajectory Publishing LLC</title>
+
+    <!-- Favicon Icon (To Do) -->
+
+    <!-- Google Fonts (To Do) -->
+
+    <!-- CSS/FontAwesome and JS files -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/script.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/8522708d6b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Page Header -->
+    <header id="header">
+      <div class="container">
+        <nav class="nav">
+          <div class="nav__logo">
+            <a href="index.html" class="navbar-logo">
+              <img
+                src="./assets/img/logo-placeholder.svg"
+                alt="placeholder logo"
+                width="300"
+            /></a>
+          </div>
+          <div class="nav__hamburger">
+            <span class="nav__hamburger__line"></span>
+            <span class="nav__hamburger__line"></span>
+            <span class="nav__hamburger__line"></span>
+          </div>
+          <div class="nav__navbar">
+            <div class="ham-logo">
+              <img
+                src="./assets/img/logo-placeholder-mobile-100x50.png"
+                alt="mobile/ham logo"
+                width="100"
+                height="50"
+              />
+            </div>
+            <ul id="tp-navbar" class="navbar-nav">
+              <li id="hamburger_backtotop" class="nav__navbar__item">
+                <a href="#">Back to Top</a>
+              </li>
+              <li class="nav__navbar__item"><a href="#about">About</a></li>
+              <li class="nav__navbar__item">
+                <a href="#books">Our Books</a>
+              </li>
+              <li class="nav__navbar__item">
+                <a href="#contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Main Component -->
+    <main id="main" class="main-grid">
+      <!-- Hero Banner -->
+      <section id="hero-banner" class="hero-image">
+        <div class="hero-text">
+          <h2>Trajectory Publishing LLC</h2>
+          <p>
+            <em
+              >Understanding our Past, Seizing the Present, Charting our
+              Future</em
+            >
+          </p>
+        </div>
+      </section>
+      <!-- Quote and Logo Banner -->
+      <section id="quote" class="quote">
+        <div class="quote__banner">
+          CHOICES <span class="quote__banner__emp">CHANGE</span> YOUR TRAJECTORY
+        </div>
+        <div class="quote__logo">
+          <img
+            src="./assets/img/logo-placeholder-2.svg"
+            alt="placeholder logo"
+            width="200"
+            height="200"
+          />
+        </div>
+      </section>
+      <!-- About Section Slider-->
+      <section id="about">
+        <div class="slider-container">
+          <i class="fa-solid fa-arrow-right" id="nextBtn"></i>
+          <i class="fa-solid fa-arrow-left" id="prevBtn"></i>
+          <div class="slide">
+            <img
+              src="./assets/img/slide-2.png"
+              alt="About the Founder slide clone for carosel"
+              id="lastClone"
+              width="1980"
+              height="500"
+            />
+            <img
+              src="./assets/img/slide-1.png"
+              alt="Mission Statement Slide"
+              id="slide-1"
+              width="1980"
+              height="500"
+            />
+            <img
+              src="./assets/img/slide-2.png"
+              alt="About the Founder slide"
+              id="slide-2"
+              width="1980"
+              height="500"
+            />
+            <img
+              src="./assets/img/slide-1.png"
+              alt="Mission Statement Slide clone for carosel"
+              id="firstClone"
+              width="1980"
+              height="500"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Our Books/Projects -->
+      <section id="books" class="books-section">
+        <div class="box-shadow">
+          <h2>Our Projects</h2>
+          <div class="books-container">
+            <div class="books">
+              <div class="book">
+                <img
+                  src="./assets/img/placeholder-book.jpg"
+                  alt="Book Cover Placeholder"
+                  width="570"
+                  height="608"
+                />
+                <p class="book-title">Book Title</p>
+              </div>
+              <div class="book">
+                <img
+                  src="./assets/img/placeholder-book.jpg"
+                  alt="Book Cover Placeholder"
+                  width="570"
+                  height="608"
+                />
+                <p class="book-title">Book Title</p>
+              </div>
+              <div class="book">
+                <img
+                  src="./assets/img/placeholder-book.jpg"
+                  alt="Book Cover Placeholder"
+                  width="570"
+                  height="608"
+                />
+                <p class="book-title">Book Title</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Section -->
+      <section class="contact-section" id="contact">
+        <div class="contact-container-header">
+          <h2>We want to hear from you</h2>
+          <p>
+            Whether you have a question about us, our process, our projects,
+            just want to share your experiences, or anything else, we are here
+            for you.
+          </p>
+        </div>
+        <!-- Contact Us Form -->
+        <div class="contact-container">
+          <form class="contact">
+            <div class="contact-title">
+              <h2>Get in touch</h2>
+              <hr />
+            </div>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Your Name"
+              class="contact-inputs"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email"
+              class="contact-inputs"
+              required
+            />
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Your Message"
+              class="contact-inputs"
+              required
+            ></textarea>
+            <button type="submit">Submit</button>
+          </form>
+          <!-- Contact Form Banner -->
+          <div class="contact-sidebar">
+            <i class="fa-solid fa-envelope"><p>email</p></i>
+            <p class="email">info@trajectorypublishing.com</p>
+            <i class="fa-solid fa-location-dot"><p>Location</p></i>
+            <address class="address">123 some st</address>
+            <address class="address">City, State Zip</address>
+            <p>
+              Insert More Icons Like Socials, Phone Number, resources, or
+              storefront if needed
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <hr />
+        <div class="footer-nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#books">Our Books</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">The Keokuk Principle</a></li>
+          </ul>
+        </div>
+        <hr />
+        <div class="footer-bottom">
+          <p>&copy; 2025 Trajectory Publishing LLC</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
